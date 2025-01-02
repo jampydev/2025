@@ -19,7 +19,7 @@ h1 {
     font-size: 4rem;
     text-align: center;
     opacity: 0;
-    animation: fadeInOut 4s ease-in-out infinite;
+    animation: fadeInOut 5s ease-in-out infinite;
 }
 
 @keyframes fadeInOut {
@@ -32,7 +32,7 @@ h1 {
 p {
 
 color: white;
-font-size: 10px;
+font-size: 12px;
 text-align: center;
 
 }
