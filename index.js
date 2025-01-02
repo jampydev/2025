@@ -35,7 +35,7 @@ class Firework {
     update() {
         if (!this.exploded) {
             if (this.y > this.targetY) {
-                this.y -= 3;
+                this.y -= 2;
                 this.draw();
             } else {
                 this.explode();
@@ -104,5 +104,5 @@ function createFirework() {
 }
 
 // Decrease interval to increase the frequency of fireworks
-setInterval(createFirework, 100); // 500ms interval for more frequent fireworks
+setInterval(createFirework, 150); // 500ms interval for more frequent fireworks
 animate();
