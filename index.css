@@ -28,6 +28,16 @@ h1 {
     20%, 80% { opacity: 1; }
 }
 
+
+p {
+
+  position: absolute;
+
+}
+
+
+
+
 canvas {
 
     display: block;
