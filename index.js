@@ -104,5 +104,5 @@ function createFirework() {
 }
 
 // Decrease interval to increase the frequency of fireworks
-setInterval(createFirework, 250); // 500ms interval for more frequent fireworks
+setInterval(createFirework, 300); // 500ms interval for more frequent fireworks
 animate();
